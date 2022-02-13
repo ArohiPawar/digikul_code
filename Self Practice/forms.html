@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+</head>
+<body>
+
+	<h1>Form designing</h1>
+
+
+	<form action="forms.html" method="POST">
+		<label>Name:</label>
+		<input type="text" name="name" placeholder="Name" required=""><br><br>
+		<label>Password:</label>
+		<input type="password" name="pass" placeholder="Password"><br><br>
+		<label>Email:</label>
+		<input type="email" name="email" placeholder="Email"><br><br>
+
+		<label>Descriptions:</label>
+		<textarea name="desc"></textarea>
+		<br><br>
+
+		<label>List:</label>
+		<select name="options" required>
+			<option value="" selected>select any options</option>
+			<option value="kiran">kiran</option>
+			<option value="aarohi">aarohi</option>
+			<option value="aarav">aarav</option>
+		</select> <br><br>
+
+		<label>Gender:</label><br>
+		<input type="radio" id="gender" name="gender" value="male"> <label>Male</label>
+		<input type="radio" id="gender" name="gender" value="female">
+		 <label>Female</label>
+
+
+
+
+
+ <br><br>
+		<input type="submit" name="Submit" value="Submit">
+		<!-- <button>Submit</button> -->
+	</form>
+</body>
+</html>
